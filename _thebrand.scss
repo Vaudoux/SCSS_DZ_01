@@ -1,0 +1,54 @@
+@import "variables";
+
+
+/* ---------------theBrand-------------------------- */
+
+.thebrand {
+    display: flex;
+    background-color: #f1e4e6;
+    /* padding-left: var(--padding-thebrand);
+    padding-right: var(--padding-thebrand); */
+    &__image {
+        display: flex;
+        width: 50%;
+        align-items: center
+    }
+    &__image img {
+        max-width: 100%;
+        height: fit-content;
+    }
+    &__title {
+        padding-left: 64px;
+        display: flex;
+    }
+    &__item {
+        display: flex;
+        align-items: center
+    }
+    &__rectangle {
+        margin-right: 16px;
+        margin-left: 64px;
+    }
+    &__textbox {
+        display: flex;
+        flex-direction: column;
+    }
+    &__subtitle {
+        color: $fontMineColor;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    &__subtext {
+        color: $fontMineColor;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-right: 10px;
+    }
+    &__fashion {
+        color: $fontColor;
+    }
+}

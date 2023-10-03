@@ -1,0 +1,67 @@
+@import "variables";
+
+  /* ---------------accesories-------------------------- */
+
+.accesories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(1, 180px); */
+    gap: 30px;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 65px;
+    padding-bottom: 96px;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+    &__item {
+        position: relative;
+        /* width: 360px;
+          height: 260px; */
+        /* border: 2px solid #000; */
+    }
+    &__content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    &__image1 {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    &__text {
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__title {
+        color: $fontColor;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__bigitem {
+        position: relative;
+        min-height: 180px;
+        grid-column: 1 / -1;
+    }
+}
+

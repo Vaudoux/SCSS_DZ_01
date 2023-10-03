@@ -1,0 +1,37 @@
+@import "variables";
+
+.carousel {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.slide {
+}
+.carousel-inner {
+}
+.carousel-item {
+}
+.active {
+}
+.d-block {
+}
+.w-100 {
+}
+.carousel-control-prev {
+    /* position: absolute; */
+    height: 47px;
+    width: 47px;
+}
+.carousel-control-prev-icon {
+}
+.visually-hidden {
+}
+.carousel-control-next {
+    /* position: absolute; */
+    height: 47px;
+    width: 47px;
+}
+.carousel-control-next-icon {
+}
